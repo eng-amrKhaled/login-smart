@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <section class="py-5 text-center  vh-100 position-relative">
+        <div class="mx-auto w-50   p-5 box">
+            <h1 class="py-3">Smart Login System</h1>
+            <input type="text" class="form-control my-3 d-none nameInput" id="userName" placeholder="Enter your name" oninput="validateForm(this)" >
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" oninput="validateForm(this)">
+            <input type="password" class="form-control my-3" id="pass" placeholder="Enter your password" oninput="validateForm(this)">
+
+            <p class="text-danger d-none" id="req">All inputs is required</p>
+            <p class="text-success d-none" id="succ">Success</p>
+            <p class="text-danger d-none" id="exists">email already exists</p>
+            <p class="text-danger d-none" id="chick">incorrect email or password</p>
+
+            <button class="w-100 btn btn-outline-primary btnLogin">Login</button>
+            <button class="w-100 btn btn-outline-primary d-none btnSign">Sign Up</button>
+            <br>
+            <br>
+            <p class="text-white signUp">Dont have an account? <a href="" class="text-decoration-none text-white">Sign Up</a></p>
+            <p class="text-white d-none signIn">You have an account?  <a href="" class="text-decoration-none text-white ">Signin</a></p>
+          
+        </div>
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="pageForWelcome" class="d-none">
+            <div class="nav d-flex justify-content-around align-items-center py-2 position-absolute top-0 end-0 start-0 ">
+                <h2 class="text-white h3">SMART LOGIN</h2>
+                <button id="logout" class="btn btn-outline-info">Logout</button>
+            </div>
+    
+    
+            <div id="display" class="bg-transparent w-50 mx-auto welcome py-4 px-5">
+                
+            </div>
+        </div>
+        
+    
+    </section>
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

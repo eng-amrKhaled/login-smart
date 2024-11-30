@@ -1,0 +1,62 @@
+section , .box{
+    background-color: #24353F;
+}
+
+.box h1{
+    color: #17A2B8;
+}
+
+.form-control{
+    background-color: #24353F;
+    color: white !important;
+}
+
+input::placeholder {
+    color: #B6AA8C !important;
+    opacity: 1;
+}
+
+.form-control:focus{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+.btn-outline-primary{
+    --bs-btn-color :#17A2B8 ;
+    --bs-btn-border-color : #17A2B8;
+    --bs-btn-hover-bg:#17A2B8 ;
+    --bs-btn-hover-border-color: #17A2B8;
+    --bs-btn-active-bg: #17A2B8;
+    --bs-btn-active-border-color:#17A2B8 ;
+    --bs-btn-disabled-color: #17A2B8;
+    --bs-btn-disabled-border-color:#17A2B8 ;
+}
+
+.box{
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.5);
+  }
+
+.nav{
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.2);
+    
+}
+.nav h2{
+    transform: translatex(-100px);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.nav button{
+    transform: translatex(100px);
+}
+
+.welcome{
+    transform: translateY(250px);
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+.welcome h1{
+    color:#17A2B8 ;
+}
+
